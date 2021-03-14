@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:rgb(190, 223, 219);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.all-container {
+  width: 90%;
+  margin: 10% auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(197, 197, 226);
+}
+
+.title {
+ text-align: center;
+}
+
+.input-btn-container {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-field {
+  flex: 1 0 auto;
+}
+
+.list-container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.icon-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue
+}
+
+.edit-btn {
+  color: green;
+  border: none;
+  background-color: white;
+}
+
+.remove-btn {
+  color: rgba(255, 0, 0, 1);
+  border: none;  
+  background-color: white;
+}
+
+section.list-container:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.edit-btn:hover, .remove-btn:hover{
+  font-size: large;
+}
+.alert, alert.success {
+  background-color: rgb(112, 161, 112);
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+  color: white
+}
+
+.alert-danger{
+  background-color: rgb(206, 29, 58);
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+  color: white
+}
+
+.clear-btn {
+  width: 100%;
+  border: none;
+  background-color: white;
+  color: red;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+.clear-btn:hover{
+  font-size: large;
 }
