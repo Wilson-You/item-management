@@ -6,7 +6,7 @@ import List from './List'
 const getLocalStorage = () => {
   const list = localStorage.getItem('list')
   if (list) {
-    const parsedList = JSON.parse(list);
+    const parsedList = JSON.parse(list)
     return parsedList
   }
   else {
